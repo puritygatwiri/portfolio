@@ -1,0 +1,63 @@
+.all-text {
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 140px;
+    line-height: 0.99em;
+    padding: 120px 75px 0px 75px;
+    margin: 0 0 150px 0;
+    width: calc(100% - 150px);
+    height: auto;
+    /* background-color: #fff; */
+    z-index: 5;
+    position: relative;
+    letter-spacing: -0.02em;
+}
+
+.contact-text {
+    color: #fff;
+    margin: 0 0 150px 0;
+}
+
+.skill-div {
+    text-align: center;
+    margin: 0 0 150px 0;
+    position: relative;
+}
+
+.skill-name {
+    font-family: 'Familjen Grotesk', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    bottom: -20%;
+    right: -20%;
+    display: block;
+    /* text-align: right; */
+    letter-spacing: -0.03em;
+    /* border: 1px solid #fff; */
+    font-size: 120px;
+    z-index: 2;
+    line-height: 0.80em;
+    font-weight: normal;
+}
+
+#value {
+    font: 800 40px system-ui;
+}
+
+.logo-div {
+    font-family: 'Familjen Grotesk';
+    position: fixed;
+    margin: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+    color: darkgray;
+}
